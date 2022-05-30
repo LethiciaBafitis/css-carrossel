@@ -19,7 +19,7 @@
 @keyframes mov-div{
     0%{top:0px; left:0px; background: #000000;}
     25%{top:0px; left:300px; background: #ff0000;}
-    50%{top:0px; left:300px; background: #ffffff;}
+    50%{top:0px; left:300px; background: #146483;}
     75%{top:0px; left:0px; background: #ffd700;}
     100%{top:0px; left:0px; background: #000000;}
 }
