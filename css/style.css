@@ -1,7 +1,42 @@
-body{
-    background-color: #8a2be2;
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background: #6d00c7;
+    position: relative;
+   /*  border-radius: 50%; */
+    animation: mov-div 5s infinite;
 }
-p{
-color: #000000;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+@keyframes mov-div{
+    0%{width: 0px; background: #465c99;}
+    50%{width: 0px; background: #ff0000;}
+    100%{width: 0px; background:#99468b}
 }
+
+
+
+@keyframes mov-div{
+    0%{top:0px; left:0px; background: #000000;}
+    25%{top:0px; left:300px; background: #ff0000;}
+    50%{top:0px; left:300px; background: #ffffff;}
+    75%{top:0px; left:0px; background: #ffd700;}
+    100%{top:0px; left:0px; background: #000000;}
+}
+
+/*
+@keyframes mov-div{
+0%{top: 0px;}
+25%{top:250px;}
+50%{top: 50px;}
+75%{top: 500px;}
+100%{top: 0px;}
+}
+*/
+
+/*
+@keyframes mov-div{
+    from{top:0px;}
+    to{top:300px;}
+}
+*/
